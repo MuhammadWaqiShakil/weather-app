@@ -1,0 +1,28 @@
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 6%;
+  height: 95vh;
+  background-color: #202b3c;
+  border-radius: 25px;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #a3aebf;
+  padding: 10px;
+  width: 100%;       /* Ensures all items span the container width */
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menuItem:hover{
+  color: whitesmoke;
+}

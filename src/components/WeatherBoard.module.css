@@ -1,0 +1,18 @@
+
+
+.fontColor{
+  color: whitesmoke;
+}
+
+.image{
+  margin-right: 13%;
+}
+
+.text{
+  margin-left: 13%;
+}
+
+.cityHeading{
+  font-size: 5vmin;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
