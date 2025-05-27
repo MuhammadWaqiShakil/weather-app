@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTemperatureHalf, faWind, faCloudRain, faSun } from '@fortawesome/free-solid-svg-icons'
 
 function AirConditions({ weatherData }) {
-  // ⛔ Don't try to render until weatherData is loaded
+
   if (!weatherData || !weatherData.main || !weatherData.wind) {
-    return null; // Or show a loading spinner/message if you prefer
+    return null;
   }
 
   return (
