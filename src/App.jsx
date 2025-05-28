@@ -88,8 +88,12 @@ const getDailyForecast = (list) => {
       <div className={styles.forecastWrapper}>
        <Forecast forecastData={apiResponseForecast} />
       </div>
-      
+      <div className={styles.forecast}>
+       <Forecast forecastData={apiResponseForecast} />
+      </div>
     </div>
+    
+      
       
     </>
   )

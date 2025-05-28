@@ -48,7 +48,7 @@ function WeatherBoard({ weatherData }) {
       </div>
       <div className={`${styles.image}`}>
         {currentImage && (
-          <img
+          <img 
             src={currentImage}
             alt="Time-based"
             className="w-full h-auto"

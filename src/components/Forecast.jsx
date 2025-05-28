@@ -12,8 +12,8 @@ function Forecast(props) {
 
   return (
     <>
-      <div className={`${styles.forecastContainer} mt-4 d-flex flex-column gap-4`}>
-        <h5 className='mt-4 pt-2 text-center'>6-Day Forecast</h5>
+      <div className={`${styles.forecastContainer} mt-4 d-flex flex-column gap-4`} >
+        <h5 className='mt-5 pt-2 text-center'>6-Day Forecast</h5>
 
         {forecastData ? (
           forecastData.map((obj, index) => {
